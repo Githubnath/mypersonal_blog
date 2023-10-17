@@ -1,1 +1,1 @@
- A repo for backing up my hashnode blog (emenikeblog.hashnode.dev)
+ A repo for my personal blog
