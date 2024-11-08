@@ -10,7 +10,7 @@ on:
   
 jobs:
   build:
-    runs-on: amazonubuntu1
+    runs-on: amazonubuntu
     
     steps:  
       - uses: actions/checkout@v3      
