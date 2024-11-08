@@ -16,5 +16,5 @@ jobs:
       - uses: actions/checkout@v3      
       - name: Deploy to Amazon EC2 with Nginx
         run: |
-            cp . /var/www/html/
+            cp -r . /var/www/html/
             sudo systemctl restart nginx
