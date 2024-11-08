@@ -10,11 +10,11 @@ on:
   
 jobs:
   build:
-    runs-on: amazonubuntu # Use the latest amazon Ubuntu runner
+    runs-on: amazonubuntu
     
     steps:  
       - uses: actions/checkout@v3      
       - name: Deploy to Amazon EC2 with Nginx
-       run: |
-           cp . /var/www/html/
-          sudo systemctl restart nginx
+        run: |
+            cp . /var/www/html/
+            sudo systemctl restart nginx
